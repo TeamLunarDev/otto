@@ -1,7 +1,9 @@
-## Otto
+# Otto
 
-A fully customizable UI Library created by LunarDev.
+## Running tests
 
-## How do I add Otto to my game?
+Otto's core reconcilation system is written in pure luau, and can be tested out by running
 
-You can add Otto to your game by going to the releases tab and installing the most recent RBXM file.
+```bash
+luau --fflags=LuauInterpolatedStringBaseSupport test.luau
+```
